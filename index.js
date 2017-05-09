@@ -17,7 +17,7 @@ let req = {
       .then(function (response) {
         return response.json()
       })
-  }
+  },
   /**
    * Simple GET request to url, returns a promise
    * @param {String} url
