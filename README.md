@@ -23,6 +23,8 @@ Form encode object for requests.
 **Returns**
 Form encoded string.
 
+---
+
 ### `req.call`
 
 Wrapper function for Isomorphic Fetch.
@@ -39,6 +41,8 @@ Wrapper function for Isomorphic Fetch.
 **Returns:**
 Promise that resolves to an error or the response from the call.
 
+---
+
 ### `req.get`
 
 Shorthand helper for `request.call(url, form, 'GET').
@@ -53,6 +57,7 @@ Shorthand helper for `request.call(url, form, 'GET').
 **Returns:**
 Promise that resolves to an error or the response from the call.
 
+---
 
 ### `req.put`
 
@@ -71,6 +76,8 @@ Shorthand helper for `request.call(url, form, 'PUT').
 **Returns:**
 Promise that resolves to an error or the response from the call.
 
+---
+
 ### `req.delete`
 
 Shorthand helper for `request.call(url, form, 'DELETE').
@@ -85,6 +92,8 @@ Shorthand helper for `request.call(url, form, 'DELETE').
 **Returns:**
 Promise that resolves to an error or the response from the call.
 
+---
+
 ### `req.post`
 
 Shorthand helper for `request.call(url, form, 'POST').
@@ -95,9 +104,6 @@ Shorthand helper for `request.call(url, form, 'POST').
 | -------------- | ------------ | ----------------------- |
 | url            | String       | none                    |
 | form           | Object       | none                    |
-
-**Returns:**
-Promise that resolves to an error or the response from the call.
 
 **Returns:**
 Promise that resolves to an error or the response from the call.
