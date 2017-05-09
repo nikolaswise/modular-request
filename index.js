@@ -27,7 +27,7 @@ let req = {
    */
   get: (url, form = {}) => {
     form = req.encodeForm(form)
-    return call(url, form, 'GET')
+    return req.call(url, form, 'GET')
   },
   /**
    * Simple PUT request to url, returns a promise
@@ -37,7 +37,7 @@ let req = {
    */
   put: (url, form = {}) => {
     form = req.encodeForm(form)
-    return call(url, form, 'PUT')
+    return req.call(url, form, 'PUT')
 
   },
   /**
@@ -48,7 +48,7 @@ let req = {
    */
   delete: (url, form = {}) => {
     form = req.encodeForm(form)
-    return call(url, form, 'DELETE')
+    return req.call(url, form, 'DELETE')
   },
   /**
    * Simple POST request to url, returns a promise
@@ -58,7 +58,7 @@ let req = {
    */
   post: (url, form = {}) => {
     form = req.encodeForm(form)
-    return call(url, form, 'POST')
+    return req.call(url, form, 'POST')
   }
 }
 
