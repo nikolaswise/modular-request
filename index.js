@@ -1,5 +1,6 @@
-import polyfill from 'es6-promise'
+// import polyfill from 'es6-promise'
 import fetch from 'isomorphic-fetch'
+
 
 /**
  * Simple request module using fetch
