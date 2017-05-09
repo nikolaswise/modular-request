@@ -1,0 +1,29 @@
+{
+  "name": "req",
+  "version": "1.0.0",
+  "description": "Small server-side/client-side agnostic async request module Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaswise/req.git"
+  },
+  "keywords": [
+    "request",
+    "get",
+    "post",
+    "isomorphic"
+  ],
+  "author": "Nikolas Wise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolaswise/req/issues"
+  },
+  "homepage": "https://github.com/nikolaswise/req#readme",
+  "devDependencies": {
+    "es6-promise": "^4.1.0",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
