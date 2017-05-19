@@ -27,6 +27,7 @@
     "isomorphic-fetch": "^2.2.1"
   },
   "dependencies": {
+    "fetch-everywhere": "^1.0.5",
     "isomorphic-fetch": "^2.2.1"
   }
 }
