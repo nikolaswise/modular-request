@@ -1,6 +1,6 @@
 {
-  "name": "req",
-  "version": "1.0.0",
+  "name": "modular-request",
+  "version": "0.0.1",
   "description": "Small server-side/client-side agnostic async request module Edit",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikolaswise/req.git"
+    "url": "git+https://github.com/nikolaswise/modular-request.git"
   },
   "keywords": [
     "request",
@@ -19,9 +19,9 @@
   "author": "Nikolas Wise",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikolaswise/req/issues"
+    "url": "https://github.com/nikolaswise/modular-request/issues"
   },
-  "homepage": "https://github.com/nikolaswise/req#readme",
+  "homepage": "https://github.com/nikolaswise/modular-request#readme",
   "devDependencies": {
     "es6-promise": "^4.1.0",
     "isomorphic-fetch": "^2.2.1"
