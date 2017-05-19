@@ -1,6 +1,6 @@
 // import polyfill from 'es6-promise'
-import fetch from 'fetch-everywhere'
-
+// import fetch from 'fetch-everywhere'
+import 'whatwg-fetch'
 /**
  * Simple request module using fetch
  * unimorphic isorequest nodularified for REPL and BROWSER

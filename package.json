@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "fetch-everywhere": "^1.0.5",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "whatwg-fetch": "^2.0.3"
   }
 }
